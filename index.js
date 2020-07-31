@@ -24,10 +24,10 @@ function destructivelyRemoveFirstKitten(name) {
 
 function appendKitten(name) {
   modifiedKittens = kittens.push(name)
-  return kittens
+  return modifiedKittens
 }
 
 function prependKitten(name) {
   modifiedKittens = kittens.unshift(name)
-  return kittens
+  return modifiedKittens
 }

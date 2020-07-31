@@ -31,7 +31,7 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   var newArray = []
-  var kittens = kittens.concat(newArray)
-  kittens.unshift(name)
-  return kittens
+  var modifiedKittens = kittens.concat(newArray)
+  modifiedKittens.unshift(name)
+  return modifiedKittens
 }

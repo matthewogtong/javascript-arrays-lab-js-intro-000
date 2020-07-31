@@ -35,3 +35,13 @@ function prependKitten(name) {
   modifiedKittens.unshift(name)
   return modifiedKittens
 }
+
+function removeLastKitten() {
+  modifiedKittens = kittens.slice(0, kittens.length() - 1)
+  return modifiedKittens
+}
+
+function removeFirstKitten() {
+  modifiedKittens = kittens.slice(1)
+  return modifiedKittens
+}
